@@ -1,0 +1,17 @@
+{
+  "author": "Jason Smith",
+  "date": "2020-08-11",
+  "recordings": [
+    { "player": "Jadon Sancho",
+      "item": "http://www.wikidata.org/entity/Q30148558",
+      "team": "Manchester United F. C.",
+      "temperature": 35.7
+    },
+    {
+      "player": "David de Gea",
+      "item": "http://www.wikidata.org/entity/Q150268",
+      "team": "Manchester United F. C.",
+      "temperature": 36.1
+    }
+  ]
+}

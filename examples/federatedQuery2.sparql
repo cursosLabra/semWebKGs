@@ -1,0 +1,20 @@
+prefix ex: <http://www.example.org/> 
+prefix voc: <http://www.example.org/voc/> 
+prefix schema: <https://schema.org/> 
+prefix wiki: <http://www.wikidata.org/entity/> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix wd: <http://www.wikidata.org/entity/>
+prefix wdt: <http://www.wikidata.org/prop/direct/>
+
+select * where {
+  ?obs voc:footballPlayer ?name .
+  ?obs voc:wikidataitem   ?item .
+  SERVICE <https://query.wikidata.org/bigdata/namespace/wdq/sparql> { 
+   ?item rdfs:label ?label .
+   ?item wdt:P19 ?birthPlace . 
+   ?birthPlace rdfs:label ?place . 
+   FILTER(lang(?name)='es' && lang(?place) = 'es'
+   )
+ }      
+}

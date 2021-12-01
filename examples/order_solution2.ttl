@@ -1,0 +1,9 @@
+prefix : <http://example.org/>
+prefix schema: <http://schema.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+:m23 schema:name "New York City Marathon ";
+     :hasResults :results .
+:results rdf:_1 :dave ;
+         rdf:_2 :alice ;
+         rdf:_3 :bob   .

@@ -1,0 +1,17 @@
+<Recording date="2020-08-11">
+ <author>Tom Bray</author>
+ <observations>
+     <observation>
+         <player>Kamil Grabara</player>
+         <team>F. C. Copenhagen</team>
+         <temperature>36</temperature>
+         <comment>This observation was done by the <person name="Jess Thorup">Coach</person> 
+            and the <person name="Rubén Sellés">Assistant coach</person></comment>
+     </observation>
+     <observation>
+        <player>Raphaël Varane</player>
+        <team>Manchester United F. C.</team>
+        <temperature>35.8</temperature>
+    </observation>
+</observations>
+</Recording>

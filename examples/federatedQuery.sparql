@@ -1,0 +1,14 @@
+prefix : <http://example.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix wd: <http://www.wikidata.org/entity/>
+prefix wdt: <http://www.wikidata.org/prop/direct/>
+
+select * where {
+ ?p :item ?item .
+ SERVICE <https://query.wikidata.org/bigdata/namespace/wdq/sparql> { 
+  ?item rdfs:label ?name .
+  ?item wdt:P19 ?birthPlace . 
+  ?birthPlace rdfs:label ?place . 
+  FILTER(lang(?name)='es' && lang(?place) = 'es')
+ } 
+}

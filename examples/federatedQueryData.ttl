@@ -1,0 +1,6 @@
+prefix : <http://example.org/>
+prefix wde: <http://www.wikidata.org/entity/>
+
+# Try it: https://rdfshape.weso.es/link/16382202483
+:ronaldo :item wde:Q11571 .
+:bryan :item wde:Q325997 .

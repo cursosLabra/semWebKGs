@@ -1,0 +1,7 @@
+prefix schema: <http://schema.org/>
+prefix dbr:    <http://dbpedia.org/resource/>
+
+select ?person ?known where {
+  ?person schema:knows ?known  .
+  ?known  schema:birthPlace dbr:Spain 
+}

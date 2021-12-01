@@ -1,0 +1,22 @@
+prefix :       <http://example.org/>
+prefix dbr:    <http://dbpedia.org/resource/>
+prefix foaf:   <http://xmlns.com/foaf/0.1/>
+prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+prefix schema: <http://schema.org/>
+
+:alice schema:knows :bob .
+:alice schema:knows [ schema:knows :dave ] .
+:bob   schema:knows :carol ;
+       schema:name "Robert";
+       schema:birthDate "1980-03-10"^^<xsd:date> ;
+       schema:birthPlace dbr:Spain .
+:carol schema:knows :bob, :alice ;
+       schema:knows [ 
+         :age 23 ;
+         schema:birthPlace _:1 
+       ] ;
+       schema:birthPlace dbr:Spain .
+:dave  schema:birthPlace _:1 .
+dbr:Spain rdfs:label "Spain"@en , "España"@es .
+
+

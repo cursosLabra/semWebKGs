@@ -1,0 +1,11 @@
+prefix :       <http://example.org/>
+prefix schema: <http://schema.org/>
+prefix dbr:    <http://dbpedia.org/resource>
+
+:alice schema:knows      :bob , :carol.
+:bob   schema:knows      :carol ;
+       schema:birthPlace dbr:Spain;
+       schema:name       "Robert";
+       schema:birthDate  "1980-03-10"^^<xsd:date>.
+:carol schema:knows      :bob, :alice ;
+       schema:birthPlace dbr:Spain .
