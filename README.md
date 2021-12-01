@@ -3,6 +3,7 @@
 Semantic Web and Knowledge graphs course
 
 Slides:
+
 - [Day 1. Introduction to Semantic web, knowledge graphs and RDF](https://github.com/cursosLabra/semWebKGs/raw/main/slides/10_Introduction.pdf)
 - [Exercises day 1 about RDF](https://github.com/cursosLabra/semWebKGs/raw/main/slides/15_Exercises_RDF.pdf)
 - [Day 2. RDF Data modeling](https://github.com/cursosLabra/semWebKGs/raw/main/slides/15_RDFDataModeling.pdf)
