@@ -1,4 +1,4 @@
-# Course: Semantics, knowledge graphs and ontologies in practice
+# Training: Semantics, knowledge graphs and ontologies in practice
 
 Semantic Web and Knowledge graphs course
 
@@ -14,7 +14,7 @@ Slides:
 - [Day 4. Advanced topics](https://github.com/cursosLabra/semWebKGs/raw/main/slides/40_AdvancedTopics.pdf)
 
 Source code of some examples and exercises:
-- [Examples](https://github.com/cursosLabra/semWebKGs/tree/main/examples)
-- [Exercises](https://github.com/cursosLabra/semWebKGs/tree/main/exercises)
+-[Examples](https://github.com/cursosLabra/semWebKGs/tree/main/examples)
+-[Exercises](https://github.com/cursosLabra/semWebKGs/tree/main/exercises)
 
 Author: [Jose Emilio Labra Gayo](http://labra.weso.es)
